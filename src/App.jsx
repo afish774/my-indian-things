@@ -429,7 +429,7 @@ export default function LandingPage() {
               <motion.button
                 onClick={() => setIsDarkMode((d) => !d)}
                 className="absolute pointer-events-auto rounded-full cursor-pointer focus:outline-none lamp-hotspot"
-                style={{ top: "27%", right: "8%", width: "11%", height: "15%", minWidth: "40px", minHeight: "40px" }}
+                style={{ top: "27%", right: "13%", width: "11%", height: "15%", minWidth: "40px", minHeight: "40px" }}
                 whileHover={{ backgroundColor: "rgba(255,255,255,0.08)", boxShadow: "0 0 40px rgba(255,255,255,0.25)" }}
                 transition={SPRING_GENTLE}
               />
